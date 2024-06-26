@@ -1,0 +1,52 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+
+  .patient-details {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .patient-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .patient-details p {
+    margin: 5px 0;
+  }
+  
+  .appointments-table {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointments-table h2 {
+    margin-bottom: 20px;
+  }
+  
+  .ant-btn {
+    margin: 0 8px;
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: #fafafa;
+    font-weight: bold;
+  }
+  
+  .ant-table-tbody > tr > td {
+    background-color: #ffffff;
+  }
+  
